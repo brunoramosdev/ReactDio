@@ -1,0 +1,19 @@
+.alerta {
+    margin-bottom: 1rem;
+    height: 25px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0.50rem;
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+}
+.alerta-danger {
+    color: #721c24;
+    background: #f8d7da;
+}
+.alerta-success {
+    color: #155724;
+    background: #d4edda;
+}
